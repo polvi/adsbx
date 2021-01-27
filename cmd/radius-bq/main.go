@@ -159,8 +159,16 @@ func main() {
 	latFlag := flag.Float64("lat", 44.204900, "lat")
 	lonFlag := flag.Float64("lon", -121.279170, "lon")
 	radius := flag.Int64("radius", 250, "query radius")
+	sleep := flag.String("sleep", "1m", "duration to sleep between requests, such as 30s, 1m, 2h45m, etc")
 
 	flag.Parse()
+
+	dur, err := time.ParseDuration(*sleep)
+	if err != nil {
+		fmt.Println("error parsing -sleep", err)
+		flag.PrintDefaults()
+		os.Exit(2)
+	}
 
 	if *rapidAPIKey == "" || *keyfile == "" {
 		fmt.Println("you must specify -rapidapi-key and -keyfile")
@@ -214,6 +222,6 @@ func main() {
 			log.Println(string(body))
 			log.Fatalln(err)
 		}
-		time.Sleep(60 * time.Second)
+		time.Sleep(dur)
 	}
 }
