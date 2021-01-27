@@ -1,0 +1,11 @@
+[Unit]
+Description=radius-bq
+After=network-online.target
+
+[Service]
+ExecStart=/home/pi/main -keyfile KEYNEEDED -rapidapi-key KEYNEEDED
+
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

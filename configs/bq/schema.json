@@ -1,0 +1,172 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "postime",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "icao",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "reg",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "wtc",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "spd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "altt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "alt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "galt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "talt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "trak",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lat",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lon",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "vsit",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "vsi",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "trkh",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ttrk",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sqk",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "call",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "gnd",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "trt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "pos",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "mlat",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "tsib",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sat",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "opicao",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "cou",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "mil",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "tisb",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "interested",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "from",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "to",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "dst",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "geo",
+    "type": "GEOGRAPHY"
+  }
+]
