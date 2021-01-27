@@ -3,7 +3,7 @@ Description=radius-bq
 After=network-online.target
 
 [Service]
-ExecStart=/home/pi/main -keyfile KEYNEEDED -rapidapi-key KEYNEEDED
+ExecStart=/home/pi/radius-bq -keyfile KEYNEEDED -rapidapi-key KEYNEEDED
 
 Restart=always
 
